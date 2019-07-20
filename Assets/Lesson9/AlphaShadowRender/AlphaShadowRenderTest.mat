@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: test
-  m_Shader: {fileID: 4800000, guid: e5f2f7f675dd5d845bae605a9fcd1d9c, type: 3}
+  m_Name: AlphaShadowRenderTest
+  m_Shader: {fileID: 4800000, guid: 27067a927043ed640bfce8cb8e5c1055, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f18762c350b05496ab2724be5594592e, type: 3}
+        m_Texture: {fileID: 2800000, guid: b267cbeeb93b04e788664246bdc46985, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -57,7 +57,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Cutoff: 0.5
+    - _Cutoff: 0.638
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
