@@ -57,7 +57,7 @@
                 
 				o.worldNormal = UnityObjectToWorldNormal(v.normal);
 
-				o.worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;	
+				o.worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
 
 				TRANSFER_SHADOW(o);
 
