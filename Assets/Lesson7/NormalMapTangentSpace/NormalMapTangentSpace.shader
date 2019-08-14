@@ -65,7 +65,7 @@
 				// 相当于这么说，通过矩阵定义空间之后的转置表示，又因为转置矩阵在这种特殊情况下可以作为逆矩阵用于倒推模型空间，因此这么做。
 				// float3x3 rotation = float3x3(v.tangent.xyz, binormal, v.normal);
 
-				// 切线空间计算法线旋转 ？？
+				// 切线空间计算法线旋转
 				TANGENT_SPACE_ROTATION; // -> create rotation
 
 				o.lightDir = mul(rotation, ObjSpaceLightDir(v.vertex)).xyz;
